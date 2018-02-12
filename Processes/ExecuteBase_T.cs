@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DigitalFace.Processes
 {
@@ -21,6 +22,18 @@ namespace DigitalFace.Processes
                 this.IsExecuting = true;
 
                 this.Execute(this.Setting);
+
+                this.IsExecuting = false;
+            }
+        }
+
+        public async virtual void ExecuteAsync()
+        {
+            if (this.IsExecuting == false)
+            {
+                this.IsExecuting = true;
+
+                await Task.Run(() => { this.Execute(this.Setting); });
 
                 this.IsExecuting = false;
             }
