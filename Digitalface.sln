@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalface", "Digitalface\Digitalface.csproj", "{19E13DDA-FFAC-4723-B120-7C04F172AE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalface_Test", "Digitalface_Test\Digitalface_Test.csproj", "{1D34A207-5A19-4301-BA46-100266B0189A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalface.Console", "Digitalface.Console\Digitalface.Console.csproj", "{482204D6-A2EA-40EC-A840-680D9787C9A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19E13DDA-FFAC-4723-B120-7C04F172AE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E13DDA-FFAC-4723-B120-7C04F172AE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E13DDA-FFAC-4723-B120-7C04F172AE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E13DDA-FFAC-4723-B120-7C04F172AE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D34A207-5A19-4301-BA46-100266B0189A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D34A207-5A19-4301-BA46-100266B0189A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D34A207-5A19-4301-BA46-100266B0189A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D34A207-5A19-4301-BA46-100266B0189A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482204D6-A2EA-40EC-A840-680D9787C9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482204D6-A2EA-40EC-A840-680D9787C9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482204D6-A2EA-40EC-A840-680D9787C9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482204D6-A2EA-40EC-A840-680D9787C9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

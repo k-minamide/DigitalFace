@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\Extentions\" />
+    <Folder Include="Utilities\Extentions\Stream\" />
+    <Folder Include="Utilities\Extentions\IEnumerable\" />
+    <Folder Include="Utilities\Extentions\Stream\ToString\" />
+    <Folder Include="Utilities\Extentions\IEnumerable\Split\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+</Project>
