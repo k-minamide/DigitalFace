@@ -1,12 +1,18 @@
 ﻿using System;
+using System.IO;
 using System.Text;
 using Digitalface.Utilities.Extentions.ThrowArgumentNullException4Null;
 
-namespace Digitalface.Utilities.Extentions.Stream.ToString
+namespace Digitalface.Utilities.Extentions.ToString
 {
     public static class Extention
     {
-        public static string ToString(this System.IO.Stream stream, Encoding encoding = Encoding.UTF8)
+        public static string ToString(this Stream stream)
+        {
+            return stream.ToString(Encoding.UTF8);
+        }
+
+        public static string ToString(this Stream stream, Encoding encoding)
         {
             // 引数確認
             stream.ThrowArgumentNullException4Null(nameof(stream));

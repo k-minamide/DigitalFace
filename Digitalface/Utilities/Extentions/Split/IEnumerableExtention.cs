@@ -107,6 +107,7 @@ namespace Digitalface.Utilities.Extentions.Split
             return ret;
         }
 
+        /*
         public static IEnumerable<IEnumerable<T>> Split<T>(this IEnumerable<T> source, IEnumerable<T> separator)
         {
             List<IEnumerable<T>> ret = new List<IEnumerable<T>>();
@@ -168,5 +169,6 @@ namespace Digitalface.Utilities.Extentions.Split
 
             return ret;
         }
+        */
     }
 }

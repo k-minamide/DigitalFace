@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using Digitalface.Utilities.Extentions.RegexMatches;
 using Digitalface.Utilities.Extentions.ThrowArgumentNullException4Null;
 
 namespace Digitalface.Utilities.Extentions.Split
