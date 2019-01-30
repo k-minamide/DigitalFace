@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Digitalface.Utilities.Extentions.IEnumerable.Split
+namespace Digitalface.Utilities.Extentions.Split
 {
-    public static class Extention
+    public static class IEnumerableExtention
     {
-        public static int Count(this System.Collections.IEnumerable source)
+        public static int Count(this IEnumerable source)
         {
             if (source == null)
             {

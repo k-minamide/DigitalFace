@@ -7,12 +7,19 @@
   <ItemGroup>
     <Folder Include="Utilities\" />
     <Folder Include="Utilities\Extentions\" />
-    <Folder Include="Utilities\Extentions\Stream\" />
-    <Folder Include="Utilities\Extentions\IEnumerable\" />
-    <Folder Include="Utilities\Extentions\Stream\ToString\" />
-    <Folder Include="Utilities\Extentions\IEnumerable\Split\" />
+    <Folder Include="Utilities\Extentions\IsNull\" />
+    <Folder Include="Utilities\Extentions\ThrowArgumentNullException4Null\" />
+    <Folder Include="Utilities\Extentions\ToString\" />
+    <Folder Include="Utilities\Extentions\Split\" />
+    <Folder Include="Utilities\Extentions\IsRegexMatch\" />
+    <Folder Include="Utilities\Extentions\RegexMatch\" />
+    <Folder Include="Utilities\Extentions\RegexMatches\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="Utilities\Extentions\RegexSplit\Extention.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Utilities\Extentions\IEnumerable\.DS_Store" />
   </ItemGroup>
 </Project>
